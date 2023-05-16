@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "My App",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/screens/assets/Fitlioo.png",
+    "splash": {
+      "image": "./src/screens/assets/Fitlioo.png",
+      "backgroundColor": "#FFFFFF",
+      "resizeMode": "contain",
+      "portraitOnly": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/screens/assets/Fitlioo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    }
+  }
+}
